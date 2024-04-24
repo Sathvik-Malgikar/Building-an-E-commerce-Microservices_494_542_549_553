@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
+import React from 'react';
 
 function Details() {
   const param = useParams()

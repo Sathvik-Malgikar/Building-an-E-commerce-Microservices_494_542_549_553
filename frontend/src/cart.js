@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import Item from "./cartitem";
 import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 function Cart() {
   const [items,setitems]=useState([])

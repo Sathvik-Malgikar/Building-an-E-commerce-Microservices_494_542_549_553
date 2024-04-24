@@ -6,6 +6,7 @@ import Details from './details';
 import Navbar from './navbar';
 import Cart from './cart';
 import Order from './orders';
+import React from 'react';
 
 function App() {
   return (

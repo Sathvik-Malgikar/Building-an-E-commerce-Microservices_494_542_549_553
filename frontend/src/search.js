@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Display from "./display";
 import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 function Search() {
     const nav= useNavigate()
